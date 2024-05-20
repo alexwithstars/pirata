@@ -6,16 +6,16 @@ settings:
 
 dependencies:
   canvas-confetti:
-    specifier: ^1.9.3
+    specifier: 1.9.3
     version: 1.9.3
 
 devDependencies:
   standard:
-    specifier: ^17.1.0
+    specifier: 17.1.0
     version: 17.1.0
   vite:
-    specifier: ^5.2.0
-    version: 5.2.11
+    specifier: 5.2.0
+    version: 5.2.0
 
 packages:
 
@@ -2314,8 +2314,8 @@ packages:
     engines: {node: '>=0.10.48'}
     dev: true
 
-  /vite@5.2.11:
-    resolution: {integrity: sha512-HndV31LWW05i1BLPMUCE1B9E9GFbOu1MbenhS58FuK6owSO5qHm7GiCotrNY1YE5rMeQSFBGmT5ZaLEjFizgiQ==}
+  /vite@5.2.0:
+    resolution: {integrity: sha512-xMSLJNEjNk/3DJRgWlPADDwaU9AgYRodDH2t6oENhJnIlmU9Hx1Q6VpjyXua/JdMw1WJRbnAgHJ9xgET9gnIAg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
