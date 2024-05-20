@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/pirata.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pirata</title>
+  </head>
+  <body>
+    <dialog class="modal" id="modal">
+      <video src="/pirata.mp4" id="video"></video>
+      <button id="close">Close</button>
+    </dialog>
+    <h1 class="title">Pagina pirata</h1>
+    <form method="post" id="form" class="form">
+      <label class="form-label">
+        <span>Username</span>
+        <input type="text" name="username" autocomplete="off"/>
+      </label>
+      <label class="form-label">
+        <span>Password</span>
+        <input type="password" name="password" />
+      </label>
+      <footer class="form-footer">
+        <button id="login">Login</button>
+        <button id="register">Register</button>
+      </footer>
+    </form>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
